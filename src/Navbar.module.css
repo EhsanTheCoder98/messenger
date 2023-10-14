@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 10px 30px;
     background:linear-gradient(to right,silver,gray);
+    height: 45px;
 }
 
 .container a {
