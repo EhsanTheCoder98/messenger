@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <div className={styles.container}>
                 <h2>Welcom to IChat!</h2>
-                <a href='#' onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>Login with Google Account</a>
+                <h3 onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>Login with Google Account</h3>
         </div>
     );
 };

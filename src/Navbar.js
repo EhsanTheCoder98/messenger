@@ -5,7 +5,7 @@ const Navbar = ({handler}) => {
     return (
         <div className={styles.container}>
             <h3>IChat</h3>
-            <a href='#' onClick={handler}>Logout</a>
+            <h4 onClick={handler}>Logout</h4>
         </div>
     );
 };

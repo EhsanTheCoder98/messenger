@@ -7,7 +7,8 @@
     height: 45px;
 }
 
-.container a {
+.container h4 {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
