@@ -29,6 +29,11 @@
     margin-top: 20px;
 }
 
+.container p {
+    position: fixed;
+    top: 90%;
+}
+
 .container h3:hover{
     background-color: white;
 }
@@ -39,5 +44,8 @@
     }
     .container h2{
         font-size: 1.2rem;
+    }
+    .container p{
+        font-size: 0.6rem;
     }
 }

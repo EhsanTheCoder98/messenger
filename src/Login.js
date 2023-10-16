@@ -8,6 +8,7 @@ const Login = () => {
         <div className={styles.container}>
                 <h2>Welcome to IChat!</h2>
                 <h3 onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>Login with Google Account</h3>
+                <p>Developed by Ehsan</p>
         </div>
     );
 };
